@@ -6,7 +6,7 @@
 3. create required userdefined model fields with required field datatypes.
 
 '''
-
+#Model created by Dhaneswar
 from django.db import models
 class Employee(models.Model):
     eno = models.IntegerField(primary_key=True)
